@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWorks", "HomeWorks\HomeWorks.csproj", "{140DBA9C-54B8-4F80-A647-98E5B4A779FA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassMetotDemo", "ClassMetotDemo\ClassMetotDemo.csproj", "{14F25B79-9211-4089-8614-AAC58F5981CC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{140DBA9C-54B8-4F80-A647-98E5B4A779FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{140DBA9C-54B8-4F80-A647-98E5B4A779FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{140DBA9C-54B8-4F80-A647-98E5B4A779FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{140DBA9C-54B8-4F80-A647-98E5B4A779FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14F25B79-9211-4089-8614-AAC58F5981CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14F25B79-9211-4089-8614-AAC58F5981CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14F25B79-9211-4089-8614-AAC58F5981CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14F25B79-9211-4089-8614-AAC58F5981CC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {087FAF92-8850-4AF0-9CC3-702D18B61E12}
+	EndGlobalSection
+EndGlobal
