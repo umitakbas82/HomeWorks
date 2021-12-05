@@ -29,15 +29,19 @@ namespace Product
             product3.ProductInStock = 60;
             product3.ProductId = 7;
 
+            Products[] products = new Products[] { product1, product2 ,product3};
 
-            foreach (var urun in Products)
+            foreach (var product in products)
             {
 
-                Console.WriteLine(urun.ProductName + " " + urun.ProductPrice + " " + urun.ProductInStock);
-
-
+                Console.WriteLine(product.ProductName + " " + product.ProductPrice + " " + product.ProductInStock);
 
             }
+
+
+
+
+
 
         }
     }
