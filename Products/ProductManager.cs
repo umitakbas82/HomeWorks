@@ -4,16 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Product
+namespace Products
 {
-    class Products
+    class ProductManager
     {
         public string ProductName { get; set; }
-        public int ProductId { get; set; }
         public int ProductPrice { get; set; }
         public int ProductInStock { get; set; }
-
-
+        public int ProductId { get; set; }
 
     }
 }
