@@ -19,22 +19,22 @@ namespace GameProject
         {
             if (userValidationService.Validate(gamer)==true)
             {
-                Console.WriteLine("Kayit Basarili");
+                Console.WriteLine("Sing Up Succeeded");
             }
             else
             {
-                Console.WriteLine("Dogrulama Basarisiz, Kayit Basarisiz");
+                Console.WriteLine("Sign Up Failed");
             }
         }
 
         public void Delete(Gamer gamer)
         {
-            Console.WriteLine("Kayit Silindi");
+            Console.WriteLine("Gamer Record Deleted");
         }
 
         public void Update(Gamer gamer)
         {
-            Console.WriteLine("Guncelleme Basarili");
+            Console.WriteLine("Update Succeeded");
         }
     }
 }
